@@ -6,14 +6,14 @@ class Scraper {
 
     constructor() {
         this.headers = { // sign 需要的参数
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
         };
 
         this.douyinApiHeaders = {
             'accept-encoding': 'gzip, deflate, br',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0',
             'referer': 'https://www.douyin.com/',
-            'cookie': 'sid_guard=8bab9db9236a2e19efedbbd6322bc19f%7C1725259804%7C5183999%7CFri%2C+01-Nov-2024+06%3A50%3A03+GMT;'
+            'cookie': 'a99d3be2f3e57e27f8b62c044709bafa%7C1735855219%7C5183992%7CMon%2C+03-Mar-2025+22%3A00%3A11+GMT;'
             // 其他请求头
         };
     }
